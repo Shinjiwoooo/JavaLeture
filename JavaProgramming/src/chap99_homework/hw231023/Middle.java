@@ -14,9 +14,9 @@ public class Middle {
 		String str1 = sc.nextLine();
 
 		if(str1.length() % 2 == 0) {
-			System.out.println(str1.charAt(str1.length() / 2 - 1) + str1.charAt(str1.length() / 2));
+			System.out.println("" + str1.charAt(str1.length() / 2 - 1) + str1.charAt(str1.length() / 2));
 		} else {
-			System.out.println(str1.charAt(str1.length() / 2));
+			System.out.println("" + str1.charAt(str1.length() / 2));
 		}
 
 		// 2. 1. 길이가 12인 char 배열을 선언하고 {'b', 'c', 's', 'i', 'i', 'o', 'q', 'n', 't', 'm', 'l', 't'}로 초기화합니다.

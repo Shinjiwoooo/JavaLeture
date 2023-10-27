@@ -1,7 +1,0 @@
-package chap12_inteface.multiinherit;
-
-public class Father {
-	public void repair() {
-		
-	}
-}
